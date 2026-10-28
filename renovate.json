@@ -6,12 +6,12 @@
       "matchUpdateTypes": ["minor", "patch"],
       "groupName": "minor and patch dependencies",
       "schedule": ["* 0-3 * * 1"],
-      "minimumReleaseAge": "14 days"
+      "minimumReleaseAge": "30 days"
     },
     {
       "matchUpdateTypes": ["major"],
       "schedule": ["* 0-3 * * 1"],
-      "minimumReleaseAge": "21 days"
+      "minimumReleaseAge": "30 days"
     }
   ]
 }
